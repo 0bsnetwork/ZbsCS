@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ZbsNetwork.ZbsCS</id>
+    <version>1.1.5</version>
+    <title>ZbsCS library</title>
+    <authors>alexkof, abegicheva</authors>
+    <owners>alexkof, abegicheva, 0bsnetwork</owners>
+    <licenseUrl>https://github.com/0bsnetwork/ZbsCS/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/0bsnetwork/ZbsCS</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A library for interacting with the ZBS blockchain. Supports node interaction, offline transaction signing, Matcher orders, and creating addresses and keys.
+    </description>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
+      <dependency id="PCLCrypto" version="2.0.147"/>
+      </dependencies>
+    <references>
+      <reference file="Blake2Sharp.dll" />
+      <reference file="curve25519.dll" />
+      <reference file="HashLib.dll" />
+      <reference file="ZbsCS.dll" />
+    </references>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System"  />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.IO.Compression.FileSystem" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" />    
+    </frameworkAssemblies>
+    <releaseNotes>initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>zbscs 0bsnetwork zbs</tags>
+  </metadata>
+</package>
